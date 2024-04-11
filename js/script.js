@@ -66,3 +66,6 @@ console.log(isFirstGreaterthanlast) //true
 //Find the remainder of dividing the result by the fourth number. //
 const aChain = ((a2 - a1) * (a3)) % a4;
 console.log(aChain); //0
+
+//Q4:Change the way that isOver25 calculates so that we do not need to use the NOT operator (!) in other logic comparisons. Rename the variable as appropriate.
+const isNotOver25 = !(a1 =< 25 && a2 =< 25 && a3 <= 25 && a4 =< 25); //true
