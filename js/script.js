@@ -59,3 +59,10 @@ console.log(divby5) //true
 //Q2: Check if the first number is larger than the last.
 const isFirstGreaterthanlast = a1 > a4;
 console.log(isFirstGreaterthanlast) //true
+
+//Q3: Accomplish the following arithmetic chain:
+//Subtract the first number from the second number.
+//Multiply the result by the third number.
+//Find the remainder of dividing the result by the fourth number. //
+const aChain = ((a2 - a1) * (a3)) % a4;
+console.log(aChain); //0
