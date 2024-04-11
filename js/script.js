@@ -98,12 +98,29 @@ const nMiles = 1500
 //Q1: How many gallons of fuel will you need for the entire trip?
 const nGallons1 = nMiles / mPg1;
 console.log (nGallons1);
-//
+//50
 
 const nGallons2 = nMiles / mPg2;
 console.log (nGallons2);
-//
+//53.571
 
 const nGallons3 = nMiles /mPg3;
 console.log (nGallons3);
+//65.21
 
+//Q2: Will your budget be enough to cover the fuel expense?
+const nBudgetEnough1 = nGallos1 * nCost
+console.log(nBudgetEnough1);
+//nBudgetEnough1 = nGallons1(50) * nCost(3) = 150// 
+// nBudgetEnough1(150) <= nDollars (175)   
+//true
+const nBudgetEnough2 = nGallons2 * nCost
+console.log(nBudgetEnough2);
+//nBudgetEnough2 = mPg2(53.571) * nCost(3) = 160.713// 
+// nBudgetEnough2 <= nDollars (175)
+//true
+const nBudgetEnough3 = nGallons3 * nCost
+console.log(nBudgetEnough3);
+//nBudgetEnough3 = mPg3(65.21) * nCost(3) = 195.63// 
+// nBudgetEnough3 >= nDollars (175)
+//false
