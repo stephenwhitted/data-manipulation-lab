@@ -43,3 +43,19 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
   ((n1 % 2) + (n2 % 2) + (n3 % 2) + (n4 % 2) >= 2) && 
   !(n1 > 25 || n2 > 25 || n3 > 25 || n4 > 25) && 
   (n1 != n2 && n1 != n3 && n1 != n4 && n2 != n3 && n2 != n4 && n3 != n4);
+
+
+  // The initial numbers that must be verified.
+const a1 = 10;
+const a2 = 15;
+const a3 = 20;
+const a4 = 5;
+//Q1: Check to see if the numbers above are divisbile by 5 or in other words use (%5)
+
+const divby5 = (a1 %5) + (a2 %5) + (a3 %5) + (a4 %5) ==0
+console.log(divby5) //true
+
+
+//Q2: Check if the first number is larger than the last.
+const isFirstGreaterthanlast = a1 > a4;
+console.log(isFirstGreaterthanlast) //true
